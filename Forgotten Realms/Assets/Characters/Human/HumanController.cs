@@ -10,14 +10,9 @@ public class HumanController : MonoBehaviour
     Animator animator;
     SpriteRenderer render;
     int playerLayer;
-    int moveDir = 0;
     public Transform playerPosition;
+    HumanAttack attack;
 
-    public int moveDirection
-    {
-        get => moveDir;
-        set => moveDir = value;
-    }
 
     public Animator anim
     {
@@ -35,13 +30,12 @@ public class HumanController : MonoBehaviour
         animator = GetComponent<Animator>();
         render = GetComponent<SpriteRenderer>();
         playerLayer = playerPosition.GetComponent<SpriteRenderer>().sortingOrder;
+        attack = GetComponentInChildren<HumanAttack>();
     }
-
-    private void FixedUpdate() { }
 
     void Update()
     {
-        animator.SetInteger("Direction", moveDir);
+        animator.SetTrigger("Attack");
     }
 
     public void SwordAttack(int num)

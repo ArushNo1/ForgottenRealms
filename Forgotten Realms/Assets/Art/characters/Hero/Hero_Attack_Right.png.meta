@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39fd74d66422fcf4e8de4522fe9d276b
+guid: 0dbf1581599c4e64ebfc64020a98b283
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,29 +101,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hero_WalkingLeft - Cop_0
+      name: Hero_Attack_Right_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 90
-        width: 45
-        height: 45
+        y: 240
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d4831f8dd2c1944284814fc3fa73a89
-      internalID: -1260633100
+      spriteID: b9a906af626286541b11bcdac52a00dc
+      internalID: 1294944088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_WalkingLeft - Cop_1
+      name: Hero_Attack_Right_1
       rect:
         serializedVersion: 2
-        x: 45
-        y: 90
-        width: 45
-        height: 45
+        x: 120
+        y: 240
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62c31fefd9252924390ab88b46184500
-      internalID: -966013808
+      spriteID: 35a1d1465dcd47747acdea2a9130a152
+      internalID: -334729696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_WalkingLeft - Cop_2
+      name: Hero_Attack_Right_2
       rect:
         serializedVersion: 2
-        x: 90
-        y: 90
-        width: 45
-        height: 45
+        x: 240
+        y: 240
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3093086c40589948a63e71e42322abd
-      internalID: 569298322
+      spriteID: 50dd8e89fa0c5d0479e72c3f844eb6d7
+      internalID: 605692357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_WalkingLeft - Cop_3
+      name: Hero_Attack_Right_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 45
-        width: 45
-        height: 45
+        y: 120
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a6345ee7b4350d4fb857a65440e91f9
-      internalID: 1848844634
+      spriteID: 2e0a686de3cfb5c4fa1f3052f8384130
+      internalID: 1279073808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_WalkingLeft - Cop_4
+      name: Hero_Attack_Right_4
       rect:
         serializedVersion: 2
-        x: 45
-        y: 45
-        width: 45
-        height: 45
+        x: 120
+        y: 120
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b004aca1b06993645bb27cab1f9b414c
-      internalID: 1359311868
+      spriteID: 5b014d45e628c564ca10585253bd8a65
+      internalID: 1875176902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_WalkingLeft - Cop_5
+      name: Hero_Attack_Right_5
       rect:
         serializedVersion: 2
-        x: 90
-        y: 45
-        width: 45
-        height: 45
+        x: 240
+        y: 120
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af9a67a37a1fb8c4f94c7bb2f7a799b9
-      internalID: -1024038711
+      spriteID: ab67125f511983343b62b549617e7019
+      internalID: -1681758338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_WalkingLeft - Cop_6
+      name: Hero_Attack_Right_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 45
-        height: 45
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10858415aaf435143a13bc8d4abb2f6c
-      internalID: -1570003364
+      spriteID: 3978dd1dd1de22c4b914996368d7c06c
+      internalID: 1079797283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_WalkingLeft - Cop_7
+      name: Hero_Attack_Right_7
       rect:
         serializedVersion: 2
-        x: 45
+        x: 120
         y: 0
-        width: 45
-        height: 45
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f6e8cc02e88cf8419a0c0ea8e1040a6
-      internalID: -1931627077
+      spriteID: 98b8b00e1d95e0d4783e940ee5ac7f4c
+      internalID: -1321503639
       vertices: []
       indices: 
       edges: []
@@ -295,14 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hero_WalkingLeft - Cop_0: -1260633100
-      Hero_WalkingLeft - Cop_1: -966013808
-      Hero_WalkingLeft - Cop_2: 569298322
-      Hero_WalkingLeft - Cop_3: 1848844634
-      Hero_WalkingLeft - Cop_4: 1359311868
-      Hero_WalkingLeft - Cop_5: -1024038711
-      Hero_WalkingLeft - Cop_6: -1570003364
-      Hero_WalkingLeft - Cop_7: -1931627077
+      Hero_Attack_Right_0: 1294944088
+      Hero_Attack_Right_1: -334729696
+      Hero_Attack_Right_2: 605692357
+      Hero_Attack_Right_3: 1279073808
+      Hero_Attack_Right_4: 1875176902
+      Hero_Attack_Right_5: -1681758338
+      Hero_Attack_Right_6: 1079797283
+      Hero_Attack_Right_7: -1321503639
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

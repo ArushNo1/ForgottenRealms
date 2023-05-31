@@ -10,6 +10,8 @@ public class Stats : MonoBehaviour
     public float resistance;
     public float regeneration = 0f;
     public float attackCooldown = .5f;
+    public float knockback = 1f;
+    public float knockbackResistance = 0f;
 
     private float timeSinceAttack = 0f;
 
@@ -21,6 +23,11 @@ public class Stats : MonoBehaviour
             }
             return false;
         }
+    }
+
+    public void Knockback(Vector2 directionTo){
+        direction *= 1 - (knockbackResistance * .05f);
+        GetComponent<Rigidbody2D>().AddForce(directionTo);
     }
 
     void Update()

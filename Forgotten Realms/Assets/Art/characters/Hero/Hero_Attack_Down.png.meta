@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 64a2e2e131456434fa5dd7c2293a5bc8
+guid: 60097c791ec41974eb45ee8695c8926b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,206 +101,173 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hero_Attack_0
+      name: Hero_Attack_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09946acc740111144a7778129a51f0ef
+      internalID: -676683030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Attack_Down_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f865480a7804393408ae14ec7c86fa3e
+      internalID: 831536291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Attack_Down_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68881e63dd410bd4fb090b2cdd08f265
+      internalID: -200369419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Attack_Down_3
       rect:
         serializedVersion: 2
         x: 0
         y: 120
-        width: 60
-        height: 60
+        width: 120
+        height: 120
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee6a58f98f9075b4ca056453201f1330
-      internalID: -1595030928
+      spriteID: f2dc3c50fa69a9740ad8e0afe8868f94
+      internalID: -1072074302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_Attack_1
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 120
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba80c4bcefec06042946c3844dc2baf3
-      internalID: -135038953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hero_Attack_2
+      name: Hero_Attack_Down_4
       rect:
         serializedVersion: 2
         x: 120
         y: 120
-        width: 60
-        height: 60
+        width: 120
+        height: 120
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90624f08bf0380f4cb1b40dd095c4c23
-      internalID: 1114318098
+      spriteID: ce75579c60a192d4ca97613c892be3d7
+      internalID: -1093324770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_Attack_3
+      name: Hero_Attack_Down_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 60
-        width: 60
-        height: 60
+        x: 240
+        y: 120
+        width: 120
+        height: 120
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b96266fe17df084f9f4a64e08c1d651
-      internalID: 263020022
+      spriteID: 7237cdca9680ebb4ba36af9bbece3867
+      internalID: 835372326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_Attack_4
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 60
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1962bc4ec1a17274495f1ca3272794ed
-      internalID: 103403767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hero_Attack_5
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 60
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23f0dbc6a430c324ab8177cb27820789
-      internalID: 1940241728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hero_Attack_6
+      name: Hero_Attack_Down_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 60
-        height: 60
+        width: 120
+        height: 120
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d91e25a4051bd44499e2937f6e61744
-      internalID: 1855259691
+      spriteID: 4b57fa256fd4a344d918a2c99493e215
+      internalID: 1594575106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_Attack_7
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 0
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 007a3ff2fdd72524ba15585217b04d6e
-      internalID: -1005800599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hero_Attack_8
+      name: Hero_Attack_Down_7
       rect:
         serializedVersion: 2
         x: 120
         y: 0
-        width: 60
-        height: 60
+        width: 120
+        height: 120
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e39e1a4177a35ef4f80227accb28d6f3
-      internalID: -1019053738
+      spriteID: b168929a088a7b844b1b60a7100098eb
+      internalID: -1871883974
       vertices: []
       indices: 
       edges: []
@@ -316,15 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hero_Attack_0: -1595030928
-      Hero_Attack_1: -135038953
-      Hero_Attack_2: 1114318098
-      Hero_Attack_3: 263020022
-      Hero_Attack_4: 103403767
-      Hero_Attack_5: 1940241728
-      Hero_Attack_6: 1855259691
-      Hero_Attack_7: -1005800599
-      Hero_Attack_8: -1019053738
+      Hero_Attack_Down_0: -676683030
+      Hero_Attack_Down_1: 831536291
+      Hero_Attack_Down_2: -200369419
+      Hero_Attack_Down_3: -1072074302
+      Hero_Attack_Down_4: -1093324770
+      Hero_Attack_Down_5: 835372326
+      Hero_Attack_Down_6: 1594575106
+      Hero_Attack_Down_7: -1871883974
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

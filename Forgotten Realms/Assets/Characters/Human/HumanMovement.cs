@@ -38,6 +38,9 @@ public class HumanMovement : MonoBehaviour
 
     void UpdatePath()
     {
+        if(target == null){
+            return;
+        }
         Vector2 targetPos = target.position;
         float targetX = target.position.x + target.GetComponent<Stats>().width * multiplier * .5f;
         float targetY = target.position.y + target.GetComponent<Stats>().height / 2;
@@ -146,8 +149,6 @@ public class HumanMovement : MonoBehaviour
         {
             direction = 4;
         }
-
-        print(direction);
-        controller.anim.SetInteger("Direction", direction);
+        controller.anim.SetInteger("MovementDir", direction);
     }
 }
